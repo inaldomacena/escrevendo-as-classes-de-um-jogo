@@ -34,6 +34,7 @@ class heroes{
         this.nome = nome
         this.tipo = tipo
         this.idade = idade
+    
         
         
     }
@@ -42,6 +43,7 @@ class heroes{
 
     atacar(){
     let poder;
+    
 
 switch(this.tipo){
     case "mago":
@@ -68,7 +70,7 @@ switch(this.tipo){
 }
    
 
-let heroi1 = new heroes("Merlin","mago", 25,) 
+let heroi1 = new heroes("Merlin","mago", 25,"magia") 
     heroi2 = new heroes("Robin Hood","guerreiro",30)
     heroi3 = new heroes ("Funfun","monge",22)
     heroi4 = new heroes ("Shaulin","ninja",35)
